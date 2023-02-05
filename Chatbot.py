@@ -1,6 +1,6 @@
 #Using RegEx to check if a string contains the specified search pattern
 import re
-import confusing_message as nonsense
+import confusing_message1 as nonsense
 
 #Calculates the probability that the user message is the corresponds to the predefined list of recognized and required words
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
@@ -46,7 +46,9 @@ def check_all_messages(message):
                                            'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 
                                            'rash', 'stitches', 'lacerations', 'severe','bleeding'])
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
-    response('Please contact 911. You need to go to emergency room safely as soon as possible.', ['severe’, ‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’], required_words=[‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’])
+    response('Please contact 911. You need to go to emergency room safely as soon as possible.', ['severe', 'chest', 'pain', 'bleeding', 'faint', 'vision', 
+    'impaired', 'heart', 'attack', 'stroke'], 
+    required_words=['chest', 'pain', 'bleeding', 'faint', 'vision', 'impaired', 'heart', 'attack', 'stroke'])
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)

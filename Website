@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Internet Hospital</title>
+    <style>
+      /* Add your CSS styles here */
+      .header {
+        text-align: center;
+        padding: 50px;
+      }
+      .header h1 {
+        font-size: 36px;
+      }
+      .header button {
+        margin: 20px;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .text-box {
+        width: 500px;
+        height: 200px;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin: 20px auto;
+        text-align: center;
+      }
+      .text-box h3 {
+        margin-bottom: 20px;
+      }
+      .dropdown {
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+      }
+      .dropdown button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .bottom_clicks{
+        margin: 20px;
+        padding: 10px 20px;
+        background-color: #64cde7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Welcome to the Internet Hospital</h1>
+      <button>Login</button>
+    </div>
+    <div class="text-box">
+      <h3>Expert Consultation</h3>
+      <textarea></textarea>
+    </div>
+    <div class="dropdown">
+      <button>Find Doctor By</button>
+      <div class="dropdown-content">
+        <a href="#">Location</a>
+        <a href="#">Department</a>
+        <a href="#">Disease</a>
+        <a href="#">Hospital</a>
+      </div>
+    </div>
+    <button class="bottom_clicks">Help</button>
+    <button class="bottom_clicks">Read Reviews</button>
+    <button class="bottom_clicks">See your profile</button>
+  </body>
+</html>

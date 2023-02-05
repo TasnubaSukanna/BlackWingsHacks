@@ -38,15 +38,16 @@ def check_all_messages(message):
 
     response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
     response('See you!', ['bye', 'goodbye'], single_response=True)
-    response('Please go to the nearest emergency room.', ['Weakness', 'numbness', 'on', 'one', 'side', 'Slurred', 
-                                           'speech', 'Fainting', 'change', 'in', 'mental', 'state','Serious', 'burns', 'head', 'eye', 
+    response('Please go to the nearest emergency room.', ['weakness', 'numbness', 'on', 'one', 'side', 'slurred', 
+                                           'speech', 'fainting', 'change', 'in', 'mental', 'state','serious', 'burns', 'head', 'eye', 
                                            'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 'fever', 'with', 
                                            'rash', 'stitches', 'lacerations', 'severe', 'Vaginal', 'bleeding', 'pregnancy'], 
-                                            required_words=['Weakness','numbness', 'Slurred','Fainting', 'Serious', 'burns', 
+                                            required_words=['weakness','numbness', 'wlurred','fainting', 'serious', 'burns', 
                                            'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 
                                            'rash', 'stitches', 'lacerations', 'severe','bleeding'])
-                                       
-    response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
+    response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])                                   
+    response('Please contact 911. You need to go to emergency room safely as soon as possible.', ['severe’, ‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’], 
+                required_words=[‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’])
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
     
     best_match = max(highest_prob_list, key=highest_prob_list.get)

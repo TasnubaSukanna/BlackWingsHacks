@@ -1,0 +1,106 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/63df14b15c6b2b505d4b3fc0.63df14b28a8bd73846a3ae38.5URTRC9.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-link-about {
+  margin-left: 52px;
+  min-width: 48px;
+}
+
+.navbar-link-reviews {
+  margin-left: 54px;
+  min-width: 65px;
+}
+
+.navbar-link-profile {
+  margin-left: 58px;
+  min-width: 50px;
+}
+
+.share {
+  letter-spacing: 2.35px;
+  line-height: 44px;
+  white-space: nowrap;
+  width: 76px;
+}
+
+.vector {
+  height: 18px;
+  margin-left: 22px;
+  margin-top: 1.22px;
+  width: 23px;
+}
+
+.vector-1 {
+  height: 23px;
+  margin-left: 23px;
+  margin-top: 1.22px;
+  width: 22px;
+}
+
+.group-10-item {
+  height: 23px;
+  margin-left: 23px;
+  margin-top: 1.22px;
+  width: 23px;
+}
+
+.print {
+  letter-spacing: 2.35px;
+  line-height: 44px;
+  margin-left: 49px;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.printer-1 {
+  height: 23px;
+  margin-left: 20px;
+  margin-top: 1.22px;
+  width: 23px;
+}
+
+.flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.flex-row-2 {
+  align-items: center;
+  display: flex;
+  gap: 134px;
+  height: 381px;
+  margin-top: 24px;
+  min-width: 1307px;
+}

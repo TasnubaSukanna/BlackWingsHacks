@@ -1,0 +1,161 @@
+:root { 
+  --abbey: #4f4f4f;
+  --big-stone: #1f2343;
+  --black: #000000;
+  --black-rock: #15052f;
+  --concrete: #f2f2f2;
+  --electric-violet: #6610f2;
+  --fog: #e0cffc;
+  --magnolia: #fcf1ff;
+  --white: #ffffff;
+ 
+  --font-size-l: 21px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 21.7px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 54px;
+  --font-size-xxxxl: 58px;
+ 
+  --font-family-alata-regular: "Alata-Regular", Helvetica;
+  --font-family-cairo-bold: "Cairo-Bold", Helvetica;
+  --font-family-dm_sans-bold: "DM Sans-Bold", Helvetica;
+  --font-family-dm_sans-regular: "DM Sans-Regular", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-inter-bold: "Inter-Bold", Helvetica;
+  --font-family-inter-bolditalic: "Inter-BoldItalic", Helvetica;
+  --font-family-inter-extrabold: "Inter-ExtraBold", Helvetica;
+  --font-family-inter-medium: "Inter-Medium", Helvetica;
+  --font-family-inter-mediumitalic: "Inter-MediumItalic", Helvetica;
+  --font-family-inter-semibold: "Inter-SemiBold", Helvetica;
+  --font-family-montserrat-black: "Montserrat-Black", Helvetica;
+  --font-family-montserrat-bold: "Montserrat-Bold", Helvetica;
+  --font-family-montserrat-medium: "Montserrat-Medium", Helvetica;
+  --font-family-telex-regular: "Telex-Regular", Helvetica;
+}
+.inter-semi-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-inter-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-medium-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-black-21-7px {
+  color: var(--black);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-white-21-7px {
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-electric-violet-21-7px {
+  color: var(--electric-violet);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-semi-bold-abbey-19-6px {
+  color: var(--abbey);
+  font-family: var(--font-family-inter-semibold);
+  font-size: 19.6px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-medium-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-inter-medium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-mediumitalic-medium-black-21px {
+  color: var(--black);
+  font-family: var(--font-family-inter-mediumitalic);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.inter-semi-bold-electric-violet-16px {
+  color: var(--electric-violet);
+  font-family: var(--font-family-inter-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-normal-white-21px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-21-7px-2 {
+  color: var(--white);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-medium-black-54px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cairo-bold-big-stone-18px {
+  color: var(--big-stone);
+  font-family: var(--font-family-cairo-bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alata-regular-normal-big-stone-46px {
+  color: var(--big-stone);
+  font-family: var(--font-family-alata-regular);
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-black-21px {
+  color: var(--black);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bolditalic-bold-black-21px {
+  color: var(--black);
+  font-family: var(--font-family-inter-bolditalic);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 700;
+}

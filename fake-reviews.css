@@ -1,0 +1,480 @@
+/* screen - fake-reviews */
+
+.fake-reviews {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2823px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.fake-reviews .flex-row {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  height: 651px;
+  margin-left: -3305px;
+  margin-top: 20px;
+  min-width: 4683px;
+}
+
+.fake-reviews .button-open-links-navigate-design {
+  align-self: flex-end;
+  height: 55px;
+  margin-bottom: 68px;
+  width: 120px;
+}
+
+.fake-reviews .small_logo {
+  height: 44px;
+  margin-left: 3224px;
+  margin-top: 28.08px;
+  object-fit: cover;
+  width: 43px;
+}
+
+.fake-reviews .flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 186px;
+  min-height: 651px;
+  width: 820px;
+}
+
+.fake-reviews .overlap-group6 {
+  height: 431px;
+  position: relative;
+  width: 820px;
+}
+
+.fake-reviews .heres-what-our-customers-have-to-say {
+  color: var(--black);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 700;
+  height: 431px;
+  left: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 768px;
+}
+
+.fake-reviews .place {
+  left: 733px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 43px;
+  white-space: nowrap;
+}
+
+.fake-reviews .internet-hospital {
+  left: 0;
+  letter-spacing: 0.22px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  white-space: nowrap;
+  width: 226px;
+}
+
+.fake-reviews .stars-1 {
+  margin-right: 20px;
+}
+
+.fake-reviews .star {
+  align-self: stretch;
+  background-image: url(../img/union.svg);
+  background-size: 100% 100%;
+  flex: 1;
+  height: 34px;
+  min-width: 34px;
+}
+
+.fake-reviews .about {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 11px;
+  margin-top: 43px;
+  min-width: 48px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.fake-reviews .reviews {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 54px;
+  margin-top: 43px;
+  min-width: 65px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.fake-reviews .profile {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 58px;
+  margin-top: 43px;
+  min-width: 50px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.fake-reviews .overlap-group9 {
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: var(--electric-violet);
+  border-radius: 150px;
+  display: flex;
+  height: 60px;
+  margin-left: 38px;
+  margin-top: 29px;
+  min-width: 152px;
+  padding: 12px 32px;
+}
+
+.fake-reviews .contact-us {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 85px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.fake-reviews .name-1 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 320.0px;
+  margin-top: 1px;
+  min-height: 177px;
+  width: 364px;
+}
+
+.fake-reviews .overlap-group5 {
+  height: 210px;
+  margin-left: 288.0px;
+  margin-top: 194px;
+  position: relative;
+  width: 364px;
+}
+
+.fake-reviews .stars {
+  align-items: flex-start;
+  display: flex;
+  gap: 3px;
+  height: 34px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 182px;
+}
+
+.fake-reviews .name {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 33px;
+  width: 364px;
+}
+
+.fake-reviews .overlap-group7 {
+  height: 210px;
+  margin-left: 282.0px;
+  margin-top: 172px;
+  position: relative;
+  width: 364px;
+}
+
+.fake-reviews .overlap-group2 {
+  align-self: flex-start;
+  height: 36px;
+  margin-left: 150px;
+  margin-top: 55px;
+  position: relative;
+  width: 644px;
+}
+
+.fake-reviews .name-optional {
+  left: 0;
+  letter-spacing: 0.24px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  white-space: nowrap;
+  width: 340px;
+}
+
+.fake-reviews .city-state {
+  left: 304px;
+  letter-spacing: 0.24px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 340px;
+}
+
+.fake-reviews .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 61px;
+  margin-right: 391.0px;
+  margin-top: 1px;
+  min-width: 607px;
+}
+
+.fake-reviews .rectangle-6 {
+  height: 44px;
+  width: 273px;
+}
+
+.fake-reviews .overlap-group8 {
+  align-self: flex-start;
+  height: 116px;
+  margin-left: 104px;
+  margin-top: 3px;
+  position: relative;
+  width: 727px;
+}
+
+.fake-reviews .describe-your-experience {
+  left: 0;
+  letter-spacing: 0.24px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 541px;
+}
+
+.fake-reviews .rectangle-63 {
+  height: 74px;
+  left: 120px;
+  position: absolute;
+  top: 42px;
+  width: 607px;
+}
+
+.fake-reviews .overlap-group4 {
+  align-self: flex-start;
+  height: 90px;
+  margin-left: 158px;
+  margin-top: 8px;
+  position: relative;
+  width: 307px;
+}
+
+.fake-reviews .select-a-rating {
+  left: 0;
+  letter-spacing: 0.24px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 299px;
+}
+
+.fake-reviews .rectangle-61 {
+  height: 46px;
+  left: 63px;
+  position: absolute;
+  top: 44px;
+  width: 244px;
+}
+
+.fake-reviews .stars-2 {
+  left: 94px;
+  position: absolute;
+  top: 50px;
+}
+
+.fake-reviews .star-2 {
+  align-self: stretch;
+  flex: 1;
+  height: 34px;
+  min-width: 34px;
+}
+
+.fake-reviews .star-3 {
+  align-items: flex-start;
+  background-image: url(../img/star-1.svg);
+  background-size: 100% 100%;
+  display: flex;
+  min-width: 34px;
+}
+
+.fake-reviews .star-4 {
+  height: 34px;
+  width: 17px;
+}
+
+.fake-reviews .star-1 {
+  align-self: stretch;
+  background-image: url(../img/star-1.svg);
+  background-size: 100% 100%;
+  flex: 1;
+  height: 34px;
+  min-width: 34.0px;
+}
+
+.fake-reviews .group-10 {
+  align-items: center;
+  display: flex;
+  height: 44px;
+  margin-right: 198.78px;
+  margin-top: 47px;
+  min-width: 423px;
+}
+
+.fake-reviews .overlap-group3 {
+  height: 655px;
+  margin-left: 6.0px;
+  margin-top: 90px;
+  position: relative;
+  width: 1452px;
+}
+
+.fake-reviews .overlap-group {
+  align-items: flex-start;
+  background-color: var(--black-rock);
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  left: 0;
+  min-height: 655px;
+  padding: 46px 64.0px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.fake-reviews .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 381px;
+  width: 576px;
+}
+
+.fake-reviews .lets-start-working {
+  color: var(--concrete);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0;
+  min-height: 227px;
+  width: 576px;
+}
+
+.fake-reviews .lorem-ipsum-dolor-si {
+  color: var(--white);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 0;
+  margin-top: 11px;
+  min-height: 90px;
+  width: 456px;
+}
+
+.fake-reviews .fb-in-tw-ln {
+  color: var(--fog);
+  font-family: var(--font-family-dm_sans-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 32px;
+  min-height: 21px;
+  text-shadow: 0px 0px 4px #0000001a;
+}
+
+.fake-reviews .overlap-group1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--fog);
+  display: flex;
+  gap: 269px;
+  height: 90px;
+  margin-bottom: 129.0px;
+  min-width: 597px;
+  padding: 24px 25px;
+}
+
+.fake-reviews .join-our-mailing-list {
+  color: var(--white);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  min-width: 200px;
+  white-space: nowrap;
+}
+
+.fake-reviews .submit {
+  color: var(--white);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.fake-reviews .copyright-2021-all-rights-reserved {
+  align-self: flex-end;
+  color: var(--concrete);
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-right: 13.0px;
+  min-width: 243px;
+  white-space: nowrap;
+}
+
+.fake-reviews .new-business {
+  left: 116px;
+  letter-spacing: 0.22px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 569px;
+  white-space: nowrap;
+  width: 163px;
+}
+
+.fake-reviews .image-50 {
+  height: 31px;
+  left: 82px;
+  object-fit: cover;
+  position: absolute;
+  top: 573px;
+  width: 31px;
+}
+
+.fake-reviews .stars-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 3px;
+  height: 34px;
+  width: 182px;
+}

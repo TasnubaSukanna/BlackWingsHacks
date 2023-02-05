@@ -1,0 +1,388 @@
+/* screen - homepage */
+
+.homepage {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 3034px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.homepage .heading {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  margin-left: 31.0px;
+  margin-top: 25px;
+  min-width: 1141px;
+}
+
+.homepage .internet-hospital {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-black);
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 3.60px;
+  line-height: normal;
+  min-height: 48px;
+  min-width: 134px;
+}
+
+.homepage .group-1 {
+  align-items: center;
+  display: flex;
+  gap: 51px;
+  height: 24px;
+  margin-left: 226px;
+  margin-top: 2.0px;
+  min-width: 549px;
+}
+
+.homepage .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+  min-width: 49px;
+}
+
+.homepage .about-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.0px;
+  min-height: 20px;
+  min-width: 76px;
+}
+
+.homepage .profile {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+  min-width: 53px;
+}
+
+.homepage .reviews {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+  min-width: 67px;
+}
+
+.homepage .contact-us {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+  min-width: 90px;
+}
+
+.homepage .frame-1 {
+  margin-left: 40px;
+  margin-top: 6.0px;
+}
+
+.homepage .book-appointment {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -33.50px;
+  margin-right: -33.50px;
+  width: fit-content;
+}
+
+.homepage .overlap-group2 {
+  height: 631px;
+  margin-top: 28px;
+  position: relative;
+  width: 1440px;
+}
+
+.homepage .rectangle-4 {
+  background: linear-gradient(180deg, rgb(216, 210, 252) 0%, rgba(196, 196, 196, 0) 100%);
+  height: 614px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.homepage .frame-2 {
+  left: 165px;
+  position: absolute;
+  top: 476px;
+}
+
+.homepage .looking-for-a-truste {
+  left: 148px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 133px;
+  width: 570px;
+}
+
+.homepage .span-1 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-bold);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+}
+
+.homepage .lorem-ipsum-is-simpl {
+  left: 165px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: justify;
+  top: 351px;
+  width: 540px;
+}
+
+.homepage .rectangle-3 {
+  height: 526px;
+  left: 730px;
+  object-fit: cover;
+  position: absolute;
+  top: 105px;
+  width: 613px;
+}
+
+.homepage .flex-row {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #111111;
+  height: 150px;
+  justify-content: flex-end;
+  margin-right: 3.0px;
+  min-width: 1437px;
+  padding: 19px 149px;
+}
+
+.homepage .flex-col {
+  flex-direction: column;
+  gap: 15px;
+  min-height: 90px;
+  width: 153px;
+}
+
+.homepage .text {
+  letter-spacing: 0;
+  line-height: 62.5px;
+  min-height: 55px;
+  white-space: nowrap;
+}
+
+.homepage .patients-every-day {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+}
+
+.homepage .flex-col-1 {
+  gap: 15px;
+  margin-left: 241px;
+  min-height: 90px;
+  width: 191px;
+}
+
+.homepage .x400k {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 62.5px;
+  min-height: 55px;
+  white-space: nowrap;
+  width: 186px;
+}
+
+.homepage .health-departments {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+}
+
+.homepage .flex-col-2 {
+  gap: 10px;
+  margin-left: 257px;
+  margin-top: 5px;
+  min-height: 85px;
+  width: 186px;
+}
+
+.homepage .years-experienced {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+}
+
+.homepage .doctor-icon-container {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 0.84px;
+  margin-top: 225px;
+  min-width: 804px;
+}
+
+.homepage .doctor-icon {
+  align-items: flex-end;
+  background-color: #63bdff;
+  border-radius: 92.12px;
+  display: flex;
+  height: 184px;
+  justify-content: flex-end;
+  min-width: 184px;
+  padding: 27.1px 37.9px;
+}
+
+.homepage .noun_-doctor_2193683-1 {
+  height: 130px;
+  width: 103px;
+}
+
+.homepage .doctor-icon-1 {
+  align-items: flex-end;
+  background-color: #bbb5ff;
+  border-radius: 92.12px;
+  display: flex;
+  height: 184px;
+  justify-content: flex-end;
+  margin-left: 129px;
+  min-width: 184px;
+  padding: 30.4px 48.7px;
+}
+
+.homepage .noun_psychologist_1974929-1 {
+  height: 107px;
+  width: 87px;
+}
+
+.homepage .doctor-icon-2 {
+  align-items: flex-start;
+  background-color: #7e7bff;
+  border-radius: 92.12px;
+  display: flex;
+  height: 184px;
+  margin-left: 123px;
+  min-width: 184px;
+  padding: 36.5px 48.0px;
+}
+
+.homepage .noun_nutritionist_2049875-1 {
+  height: 110px;
+  width: 88px;
+}
+
+.homepage .overlap-group {
+  height: 215px;
+  margin-right: 3.0px;
+  margin-top: 49px;
+  position: relative;
+  width: 1437px;
+}
+
+.homepage .rectangle-66 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #111111;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 1437px;
+}
+
+.homepage .health-plan-process {
+  left: 252px;
+  letter-spacing: 0;
+  line-height: 24.5px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 295px;
+}
+
+.homepage .supplemental-benefits {
+  left: 570px;
+  letter-spacing: 0;
+  line-height: 24.5px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 296px;
+}
+
+.homepage .healthcare-strategy-experts {
+  left: 889px;
+  letter-spacing: 0;
+  line-height: 24.5px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 295px;
+}
+
+.homepage .rectangle-1 {
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 15px;
+  height: 68px;
+  left: 585px;
+  position: absolute;
+  top: 121px;
+  width: 279px;
+}
+
+.homepage .learn-more-here {
+  color: var(--black);
+  font-family: var(--font-family-telex-regular);
+  font-size: 22px;
+  font-weight: 400;
+  left: 631px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 139px;
+  width: 202px;
+}
+
+.homepage .get-medical-advice {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 24.5px;
+  margin-left: -24px;
+  margin-top: 118px;
+  min-height: 70px;
+  text-align: center;
+  width: 434px;
+}
+
+.homepage .rectangle-5 {
+  background: linear-gradient(180deg, rgb(216, 210, 252) 0%, rgba(196, 196, 196, 0) 100%);
+  height: 614px;
+  margin-top: 677px;
+  width: 1440px;
+}
+
+.homepage .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .frame {
+  align-items: center;
+  background-color: #7452ff;
+  border-radius: 10px;
+  display: flex;
+  gap: 24px;
+  height: 36px;
+  justify-content: center;
+  padding: 7px 50px;
+  width: 190px;
+}

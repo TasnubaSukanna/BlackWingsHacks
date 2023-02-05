@@ -1,0 +1,230 @@
+/* screen - email-confirmations */
+
+.email-confirmations {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2823px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.email-confirmations .frame-5 {
+  margin-left: 128px;
+  margin-top: 161px;
+}
+
+.email-confirmations .button-open-links-navigate-design {
+  height: 55px;
+  margin-left: -5295px;
+  margin-top: -1204px;
+  width: 280px;
+}
+
+.email-confirmations .flex-row {
+  height: 55px;
+  margin-left: 47.07px;
+  margin-top: 1183px;
+  min-width: 269px;
+}
+
+.email-confirmations .small_logo {
+  height: 44px;
+  object-fit: cover;
+  width: 43px;
+}
+
+.email-confirmations .internet-hospital {
+  align-self: flex-end;
+  letter-spacing: 0.22px;
+  line-height: 38px;
+  text-align: center;
+  white-space: nowrap;
+  width: 226px;
+}
+
+.email-confirmations .thank-you-for-signin {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 30.0px;
+  margin-top: 97px;
+  min-height: 272px;
+  width: 625px;
+}
+
+.email-confirmations .frame-6 {
+  align-self: center;
+  margin-right: 195.0px;
+  margin-top: 134px;
+}
+
+.email-confirmations .button-open-links-navigate-design-1 {
+  height: 55px;
+  margin-left: -5337px;
+  margin-top: -1762px;
+  width: 185px;
+}
+
+.email-confirmations .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 55px;
+  margin-left: 47.07px;
+  margin-top: 1741px;
+  min-width: 269px;
+}
+
+.email-confirmations .your-prescription-is {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 30.0px;
+  margin-top: 97px;
+  min-height: 272px;
+  width: 625px;
+}
+
+.email-confirmations .group-10 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 44px;
+  margin-right: 198.78px;
+  margin-top: 821px;
+  min-width: 423px;
+}
+
+.email-confirmations .overlap-group2 {
+  height: 655px;
+  margin-top: 90px;
+  position: relative;
+  width: 1452px;
+}
+
+.email-confirmations .overlap-group {
+  align-items: flex-start;
+  background-color: var(--black-rock);
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  left: 0;
+  min-height: 655px;
+  padding: 46px 64.0px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.email-confirmations .flex-col {
+  flex-direction: column;
+  min-height: 381px;
+  width: 576px;
+}
+
+.email-confirmations .lets-start-working {
+  color: var(--concrete);
+  font-family: var(--font-family-inter-semibold);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0;
+  min-height: 227px;
+  width: 576px;
+}
+
+.email-confirmations .lorem-ipsum-dolor-si {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 0;
+  margin-top: 11px;
+  min-height: 90px;
+  width: 456px;
+}
+
+.email-confirmations .fb-in-tw-ln {
+  color: var(--fog);
+  font-family: var(--font-family-dm_sans-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 32px;
+  min-height: 21px;
+  text-shadow: 0px 0px 4px #0000001a;
+}
+
+.email-confirmations .overlap-group1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--fog);
+  display: flex;
+  gap: 278px;
+  height: 90px;
+  margin-bottom: 129.0px;
+  min-width: 597px;
+  padding: 24px 25px;
+}
+
+.email-confirmations .join-our-mailing-list {
+  letter-spacing: 0;
+  line-height: 36px;
+  min-width: 191px;
+  white-space: nowrap;
+}
+
+.email-confirmations .submit {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.email-confirmations .copyright-2021-all-rights-reserved {
+  align-self: flex-end;
+  color: var(--concrete);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-right: 23.0px;
+  min-width: 233px;
+  white-space: nowrap;
+}
+
+.email-confirmations .new-business {
+  left: 113px;
+  letter-spacing: 0.22px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 569px;
+  white-space: nowrap;
+  width: 163px;
+}
+
+.email-confirmations .image-50 {
+  height: 31px;
+  left: 79px;
+  object-fit: cover;
+  position: absolute;
+  top: 573px;
+  width: 31px;
+}
+
+.email-confirmations .frame {
+  align-items: flex-start;
+  background-color: var(--magnolia);
+  display: flex;
+  flex-direction: column;
+  height: 459px;
+  overflow: hidden;
+  width: 733px;
+}

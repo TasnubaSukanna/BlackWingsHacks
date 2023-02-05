@@ -1,0 +1,283 @@
+/* screen - profile-page */
+
+.profile-page {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2823px;
+  overflow: hidden;
+  padding: 19px 0;
+  width: 1440px;
+}
+
+.profile-page .navbar {
+  align-items: center;
+  display: flex;
+  margin-left: 32.07px;
+  min-width: 1302px;
+}
+
+.profile-page .small_logo {
+  align-self: flex-end;
+  height: 44px;
+  margin-bottom: 1.42px;
+  object-fit: cover;
+  width: 43px;
+}
+
+.profile-page .navbar-link-internet-hospital {
+  align-self: flex-end;
+  letter-spacing: 0.22px;
+  line-height: 38px;
+  margin-bottom: 1px;
+  text-align: center;
+  white-space: nowrap;
+  width: 226px;
+}
+
+.profile-page .navbar-link-place {
+  margin-left: 470px;
+  min-width: 46px;
+}
+
+.profile-page .overlap-group2 {
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: var(--electric-violet);
+  border-radius: 150px;
+  display: flex;
+  height: 60px;
+  margin-left: 38px;
+  min-width: 152px;
+  padding: 12px 32px;
+}
+
+.profile-page .contact-us {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-width: 85px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.profile-page .group-11 {
+  align-items: flex-start;
+  display: flex;
+  height: 38px;
+  margin-left: 113px;
+  margin-top: 57px;
+  min-width: 610px;
+}
+
+.profile-page .welcome-to-your-personal-dashboard {
+  color: var(--black);
+  font-family: var(--font-family-inter-extrabold);
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 0.32px;
+  line-height: 38px;
+  text-align: center;
+  white-space: nowrap;
+  width: 610px;
+}
+
+.profile-page .zip-code-container {
+  height: 32px;
+  margin-left: -10px;
+  margin-top: 13px;
+  position: relative;
+  width: 340px;
+}
+
+.profile-page .zip-code {
+  left: 0;
+  letter-spacing: 0.24px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 340px;
+}
+
+.profile-page .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-58.svg);
+  background-size: 100% 100%;
+  display: flex;
+  margin-left: 113px;
+  margin-top: 1px;
+  min-width: 273px;
+}
+
+.profile-page .rectangle-60 {
+  height: 44px;
+  width: 273px;
+}
+
+.profile-page .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 14px;
+  min-width: 1440px;
+}
+
+.profile-page .overlap-group6 {
+  height: 1404px;
+  position: relative;
+  width: 1440px;
+}
+
+.profile-page .overlap-group5 {
+  align-items: flex-start;
+  background-color: #e5e1e3bd;
+  border: 1px solid;
+  border-color: var(--black);
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 799px;
+  left: 0;
+  min-width: 750px;
+  padding: 79px 122px;
+  position: absolute;
+  top: 605px;
+}
+
+.profile-page .title {
+  color: var(--black);
+  font-family: var(--font-family-inter-bold);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.36px;
+  line-height: 38px;
+  min-height: 62px;
+  text-align: center;
+  width: 448px;
+}
+
+.profile-page .frame-4 {
+  align-items: flex-end;
+  background-color: var(--magnolia);
+  display: flex;
+  height: 656px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.profile-page .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 650px;
+  margin-left: 108px;
+  padding: 6px 15px;
+  width: 1332px;
+}
+
+.profile-page .untitled-design-9-1 {
+  height: 57px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 75px;
+}
+
+.profile-page .hospitals-near-you {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 29px;
+  margin-top: 43px;
+  min-width: 147px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.profile-page .overlap-group {
+  height: 57px;
+  margin-left: 249px;
+  margin-top: 15px;
+  position: relative;
+  width: 294px;
+}
+
+.profile-page .clinics-near-you {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  white-space: nowrap;
+  width: 294px;
+}
+
+.profile-page .untitled-design-10-1 {
+  height: 57px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.profile-page .overlap-group1 {
+  height: 91px;
+  margin-left: 109px;
+  position: relative;
+  width: 318px;
+}
+
+.profile-page .pharmacies-near-you {
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 43px;
+  white-space: nowrap;
+  width: 279px;
+}
+
+.profile-page .untitled-design-11-1 {
+  height: 91px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 104px;
+}
+
+.profile-page .flex-row-1 {
+  align-items: center;
+  display: flex;
+  gap: 3px;
+  height: 38px;
+  margin-left: 79px;
+  margin-top: 1055px;
+  min-width: 197px;
+}
+
+.profile-page .image-50 {
+  height: 31px;
+  margin-top: 1.0px;
+  object-fit: cover;
+  width: 31px;
+}
+
+.profile-page .new-business {
+  letter-spacing: 0.22px;
+  line-height: 38px;
+  text-align: center;
+  white-space: nowrap;
+  width: 163px;
+}
+
+.profile-page .navbar-link {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 4.0px;
+  text-align: center;
+  white-space: nowrap;
+}

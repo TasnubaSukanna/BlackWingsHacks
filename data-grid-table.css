@@ -1,0 +1,30 @@
+/* screen - data-grid-table */
+
+.data-grid-table {
+  background: linear-gradient(180deg, rgb(216, 210, 252) 0%, rgb(216, 210, 252) 0%, rgb(216, 210, 252) 0.01%, rgb(253, 226, 224) 28.35%, rgb(230, 228, 234) 58.79%, rgb(224, 233, 244) 99.99%, rgba(230, 225, 232, 0) 100%, rgb(224, 233, 244) 100%);
+  background-color: rgba(255,255,255,1.0);
+  border: 1px none;
+  height: 731px;
+  overflow: hidden;
+  width: 437px;
+}
+
+.data-grid-table .backgrounds {
+  background-color: #ffffff99;
+  justify-content: flex-end;
+  margin-left: 70px;
+  margin-top: 115px;
+  min-width: 1470px;
+}
+
+.data-grid-table .rectangle-3 {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(239, 242, 246) 0%, rgb(246, 227, 235) 47.58%, rgb(213, 222, 237) 93.12%);
+  height: 1231px;
+  opacity: 0.3;
+  width: 1286px;
+}
+
+.data-grid {
+  align-items: flex-start;
+  display: flex;
+}

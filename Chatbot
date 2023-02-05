@@ -1,1 +1,7 @@
+#Using RegEx to check if a string contains the specified search pattern
+import re
+import long_responses as long
 
+#An infinite while true loop so chatbot can always get new responses
+while True:
+    print('Bot: ' + get_response(input('You: ')))

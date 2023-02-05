@@ -30,14 +30,13 @@ def message_probability(user_message, recognised_words, single_response=False, r
 #Creating our dictionary of medical related words to recognize
 def check_all_messages(message):
     highest_prob_list = {}
-
     # Simplifies response creation / adds it to the dict
     def response(bot_response, list_of_words, single_response=False, required_words=[]):
         nonlocal highest_prob_list
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
-
     response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
     response('See you!', ['bye', 'goodbye'], single_response=True)
+    response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
     response('Please go to the nearest emergency room.', ['weakness', 'numbness', 'on', 'one', 'side', 'slurred', 
                                            'speech', 'fainting', 'change', 'in', 'mental', 'state','serious', 'burns', 'head', 'eye', 
                                            'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 'fever', 'with', 
@@ -45,11 +44,9 @@ def check_all_messages(message):
                                             required_words=['weakness','numbness', 'wlurred','fainting', 'serious', 'burns', 
                                            'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 
                                            'rash', 'stitches', 'lacerations', 'severe','bleeding'])
-    response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])                                   
-    response('Please contact 911. You need to go to emergency room safely as soon as possible.', ['severe’, ‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’], 
-                required_words=[‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’])
-    response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
-    
+    response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
+    response('Please contact 911. You need to go to emergency room safely as soon as possible.', ['severe’, ‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’], required_words=[‘chest’, ‘pain’, ‘bleeding’, ‘faint’, ‘vision’, ‘impaired’, ‘heart’, ‘attack’, ‘stroke’])
+
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
     # print(f'Best match = {best_match} | Score: {highest_prob_list[best_match]}')

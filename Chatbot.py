@@ -1,6 +1,6 @@
 #Using RegEx to check if a string contains the specified search pattern
 import re
-import confusing_message1 as nonsense
+import confusing_message as nonsense
 
 #Calculates the probability that the user message is the corresponds to the predefined list of recognized and required words
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):

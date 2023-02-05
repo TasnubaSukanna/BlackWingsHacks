@@ -48,6 +48,12 @@ def check_all_messages(message):
                                        
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
+    
+    best_match = max(highest_prob_list, key=highest_prob_list.get)
+    # print(highest_prob_list)
+    # print(f'Best match = {best_match} | Score: {highest_prob_list[best_match]}')
+
+    return nonsense.unknown() if highest_prob_list[best_match] < 1 else best_match
 
 #Splits user message into an array so that each word can be analyzed separately
 def get_response(user_input):

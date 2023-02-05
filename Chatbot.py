@@ -38,6 +38,14 @@ def check_all_messages(message):
 
     response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
     response('See you!', ['bye', 'goodbye'], single_response=True)
+    response('Please go to the nearest emergency room.', ['Weakness', 'numbness', 'on', 'one', 'side', 'Slurred', 
+                                           'speech', 'Fainting', 'change', 'in', 'mental', 'state','Serious', 'burns', 'head', 'eye', 
+                                           'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 'fever', 'with', 
+                                           'rash', 'stitches', 'lacerations', 'severe', 'Vaginal', 'bleeding', 'pregnancy'], 
+                                            required_words=['Weakness','numbness', 'Slurred','Fainting', 'Serious', 'burns', 
+                                           'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 
+                                           'rash', 'stitches', 'lacerations', 'severe','bleeding'])
+                                       
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
 

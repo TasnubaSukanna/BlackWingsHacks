@@ -1,388 +1,121 @@
-/* screen - homepage */
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        margin: 5px 2px;
+        cursor: pointer;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="homepage" />
+    <div class="container-center-horizontal">
+      <div class="homepage screen">
+        <div class="heading">
+          <div class="internet-hospital">INTERNET<br />HOSPITAL</div>
+          <div class="group-1 montserrat-medium-black-16px">
+            <div class="place">Home</div>
+            <div class="about-us" ><a href= "about-section.html" style="color: black;">About Us</a></div>
+            <div class="profile"><a href= "profile-page.html" style="color: black;">Profile</a></div>
+            <div class="reviews"><a href= "fake-reviews.html" style="color: black;">Reviews</a></div>
+            <div class="contact-us"><a href= "contact-customer-service.html" style="color: black;" >Contact Us</a></div>
+          </div>
+          <div class="frame-1 frame"><div class="book-appointment">Book Appointment</div></div>
+        </div>
+        <div class="overlap-group2">
+          <div class="rectangle-4"></div>
+          <div class="frame-2 frame"><div class="book-appointment">Book Appointment</div></div>
+          <h1 class="looking-for-a-truste montserrat-medium-black-54px">
+            <span class="montserrat-medium-black-54px">Looking for a </span><span class="span-1">Trusted</span
+            ><span class="montserrat-medium-black-54px"> &amp; </span><span class="span-1">Secured</span
+            ><span class="montserrat-medium-black-54px"> Online Doctor</span>
+          </h1>
+          <p class="lorem-ipsum-is-simpl montserrat-medium-black-16px">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry&#39;s standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry.
+          </p>
+          <img class="rectangle-3" src="img/rectangle-3.png" alt="Rectangle 3" />
+        </div>
+        <div class="flex-row flex">
+          <div class="flex-col flex">
+            <div class="text alata-regular-normal-big-stone-46px">450+</div>
+            <div class="patients-every-day montserrat-medium-black-16px">Patients Every Day</div>
+          </div>
+          <div class="flex-col-1 flex-col-3">
+            <div class="x400k alata-regular-normal-big-stone-46px">400k+</div>
+            <div class="health-departments montserrat-medium-black-16px">Health Departments</div>
+          </div>
+          <div class="flex-col-2 flex-col-3">
+            <div class="text alata-regular-normal-big-stone-46px">20+</div>
+            <div class="years-experienced montserrat-medium-black-16px">Years Experienced</div>
+          </div>
+        </div>
+        <div class="doctor-icon-container">
+          <div class="doctor-icon">
+            <img class="noun_-doctor_2193683-1" src="img/noun-doctor-2193683-1.svg" alt="noun_Doctor_2193683 1" />
+          </div>
+          <div class="doctor-icon-1">
+            <img
+              class="noun_psychologist_1974929-1"
+              src="img/noun-psychologist-1974929-1.svg"
+              alt="noun_psychologist_1974929 1"
+            />
+          </div>
+          <div class="doctor-icon-2">
+            <img
+              class="noun_nutritionist_2049875-1"
+              src="img/noun-nutritionist-2049875-1.svg"
+              alt="noun_nutritionist_2049875 1"
+            />
+          </div>
+        </div>
+        <div class="overlap-group">
+          <div class="rectangle-66"></div>
+          <div class="health-plan-process cairo-bold-big-stone-18px">Health Plan &amp; Process</div>
+          <div class="supplemental-benefits cairo-bold-big-stone-18px">Supplemental Benefits</div>
+          <div class="healthcare-strategy-experts cairo-bold-big-stone-18px">Healthcare Strategy Experts</div>
+          <div class="rectangle-1"></div>
+          <div class="learn-more-here">Learn More Here</div>
+        </div>
+        <p class="get-medical-advice cairo-bold-big-stone-18px">Get medical advice, prescriptions, &amp; tests</p>
+        <table>
+          <tr>
+          <th><button>All</button></th>
+          <th><button>Cardiology</button></th>
+          <th><button>Neurology</button></th>
+          <th><button>Primary Care</button></th>
+          <th><button>Mental Health</button></th>
+          <th><button>Psychiatry</button></th>
+          <th><button>Dentistry</button></th>
+          <th><button>Senior Friendly</button></th>
+          <th><button>Pregnancy</button></th>
+        </tr>
+        </table>
+        <div style background></div>
+        <div class="rectangle-5"></div>  
+      
+      </div>
+      
+    </div>
 
-.homepage {
-  align-items: center;
-  background-color: var(--white);
-  border: 1px none;
-  display: flex;
-  flex-direction: column;
-  height: 3034px;
-  overflow: hidden;
-  width: 1440px;
-}
-
-.homepage .heading {
-  align-items: center;
-  display: flex;
-  height: 48px;
-  margin-left: 31.0px;
-  margin-top: 25px;
-  min-width: 1141px;
-}
-
-.homepage .internet-hospital {
-  color: var(--black);
-  font-family: var(--font-family-montserrat-black);
-  font-size: 20px;
-  font-weight: 900;
-  letter-spacing: 3.60px;
-  line-height: normal;
-  min-height: 48px;
-  min-width: 134px;
-}
-
-.homepage .group-1 {
-  align-items: center;
-  display: flex;
-  gap: 51px;
-  height: 24px;
-  margin-left: 226px;
-  margin-top: 2.0px;
-  min-width: 549px;
-}
-
-.homepage .place {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 20px;
-  min-width: 49px;
-}
-
-.homepage .about-us {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-bottom: 2.0px;
-  min-height: 20px;
-  min-width: 76px;
-}
-
-.homepage .profile {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 20px;
-  min-width: 53px;
-}
-
-.homepage .reviews {
-  align-self: flex-start;
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 20px;
-  min-width: 67px;
-}
-
-.homepage .contact-us {
-  align-self: flex-end;
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 20px;
-  min-width: 90px;
-}
-
-.homepage .frame-1 {
-  margin-left: 40px;
-  margin-top: 6.0px;
-}
-
-.homepage .book-appointment {
-  color: var(--white);
-  font-family: var(--font-family-montserrat-medium);
-  font-size: var(--font-size-m);
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: -33.50px;
-  margin-right: -33.50px;
-  width: fit-content;
-}
-
-.homepage .overlap-group2 {
-  height: 631px;
-  margin-top: 28px;
-  position: relative;
-  width: 1440px;
-}
-
-.homepage .rectangle-4 {
-  background: linear-gradient(180deg, rgb(216, 210, 252) 0%, rgba(196, 196, 196, 0) 100%);
-  height: 614px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1440px;
-}
-
-.homepage .frame-2 {
-  left: 165px;
-  position: absolute;
-  top: 476px;
-}
-
-.homepage .looking-for-a-truste {
-  left: 148px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 133px;
-  width: 570px;
-}
-
-.homepage .span-1 {
-  color: var(--black);
-  font-family: var(--font-family-montserrat-bold);
-  font-size: var(--font-size-xxxl);
-  font-weight: 700;
-}
-
-.homepage .lorem-ipsum-is-simpl {
-  left: 165px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: justify;
-  top: 351px;
-  width: 540px;
-}
-
-.homepage .rectangle-3 {
-  height: 526px;
-  left: 730px;
-  object-fit: cover;
-  position: absolute;
-  top: 105px;
-  width: 613px;
-}
-
-.homepage .flex-row {
-  background-color: var(--white);
-  border: 1px solid;
-  border-color: #111111;
-  height: 150px;
-  justify-content: flex-end;
-  margin-right: 3.0px;
-  min-width: 1437px;
-  padding: 19px 149px;
-}
-
-.homepage .flex-col {
-  flex-direction: column;
-  gap: 15px;
-  min-height: 90px;
-  width: 153px;
-}
-
-.homepage .text {
-  letter-spacing: 0;
-  line-height: 62.5px;
-  min-height: 55px;
-  white-space: nowrap;
-}
-
-.homepage .patients-every-day {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 20px;
-}
-
-.homepage .flex-col-1 {
-  gap: 15px;
-  margin-left: 241px;
-  min-height: 90px;
-  width: 191px;
-}
-
-.homepage .x400k {
-  align-self: flex-end;
-  letter-spacing: 0;
-  line-height: 62.5px;
-  min-height: 55px;
-  white-space: nowrap;
-  width: 186px;
-}
-
-.homepage .health-departments {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 20px;
-}
-
-.homepage .flex-col-2 {
-  gap: 10px;
-  margin-left: 257px;
-  margin-top: 5px;
-  min-height: 85px;
-  width: 186px;
-}
-
-.homepage .years-experienced {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 20px;
-}
-
-.homepage .doctor-icon-container {
-  align-items: flex-start;
-  display: flex;
-  margin-right: 0.84px;
-  margin-top: 225px;
-  min-width: 804px;
-}
-
-.homepage .doctor-icon {
-  align-items: flex-end;
-  background-color: #63bdff;
-  border-radius: 92.12px;
-  display: flex;
-  height: 184px;
-  justify-content: flex-end;
-  min-width: 184px;
-  padding: 27.1px 37.9px;
-}
-
-.homepage .noun_-doctor_2193683-1 {
-  height: 130px;
-  width: 103px;
-}
-
-.homepage .doctor-icon-1 {
-  align-items: flex-end;
-  background-color: #bbb5ff;
-  border-radius: 92.12px;
-  display: flex;
-  height: 184px;
-  justify-content: flex-end;
-  margin-left: 129px;
-  min-width: 184px;
-  padding: 30.4px 48.7px;
-}
-
-.homepage .noun_psychologist_1974929-1 {
-  height: 107px;
-  width: 87px;
-}
-
-.homepage .doctor-icon-2 {
-  align-items: flex-start;
-  background-color: #7e7bff;
-  border-radius: 92.12px;
-  display: flex;
-  height: 184px;
-  margin-left: 123px;
-  min-width: 184px;
-  padding: 36.5px 48.0px;
-}
-
-.homepage .noun_nutritionist_2049875-1 {
-  height: 110px;
-  width: 88px;
-}
-
-.homepage .overlap-group {
-  height: 215px;
-  margin-right: 3.0px;
-  margin-top: 49px;
-  position: relative;
-  width: 1437px;
-}
-
-.homepage .rectangle-66 {
-  background-color: var(--white);
-  border: 1px solid;
-  border-color: #111111;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 65px;
-  width: 1437px;
-}
-
-.homepage .health-plan-process {
-  left: 252px;
-  letter-spacing: 0;
-  line-height: 24.5px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 295px;
-}
-
-.homepage .supplemental-benefits {
-  left: 570px;
-  letter-spacing: 0;
-  line-height: 24.5px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 296px;
-}
-
-.homepage .healthcare-strategy-experts {
-  left: 889px;
-  letter-spacing: 0;
-  line-height: 24.5px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 295px;
-}
-
-.homepage .rectangle-1 {
-  border: 1px solid;
-  border-color: var(--black);
-  border-radius: 15px;
-  height: 68px;
-  left: 585px;
-  position: absolute;
-  top: 121px;
-  width: 279px;
-}
-
-.homepage .learn-more-here {
-  color: var(--black);
-  font-family: var(--font-family-telex-regular);
-  font-size: 22px;
-  font-weight: 400;
-  left: 631px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 139px;
-  width: 202px;
-}
-
-.homepage .get-medical-advice {
-  align-self: flex-start;
-  letter-spacing: 0;
-  line-height: 24.5px;
-  margin-left: -24px;
-  margin-top: 118px;
-  min-height: 70px;
-  text-align: center;
-  width: 434px;
-}
-
-.homepage .rectangle-5 {
-  background: linear-gradient(180deg, rgb(216, 210, 252) 0%, rgba(196, 196, 196, 0) 100%);
-  height: 614px;
-  margin-top: 677px;
-  width: 1440px;
-}
-
-.homepage .flex-col-3 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-}
-
-.homepage .frame {
-  align-items: center;
-  background-color: #7452ff;
-  border-radius: 10px;
-  display: flex;
-  gap: 24px;
-  height: 36px;
-  justify-content: center;
-  padding: 7px 50px;
-  width: 190px;
-}
+  </body>
+</html>

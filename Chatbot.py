@@ -34,21 +34,24 @@ def check_all_messages(message):
     def response(bot_response, list_of_words, single_response=False, required_words=[]):
         nonlocal highest_prob_list
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
+
     response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
     response('How can I help you?', ['need','help','assistance','want'], single_response=True)
     response('See you!', ['bye', 'goodbye'], single_response=True)
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
-    response('Please go to the nearest emergency room.', ['weakness', 'numbness', 'on', 'one', 'side', 'slurred', 
-                                           'speech', 'fainting', 'change', 'in', 'mental', 'state','serious', 'burns', 'head', 'eye', 
-                                           'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 'fever', 'with', 
-                                           'rash', 'stitches', 'lacerations', 'severe', 'Vaginal', 'bleeding', 'pregnancy'], 
-                                            required_words=['weakness','numbness', 'wlurred','fainting', 'serious', 'burns', 
-                                           'injury', 'concussion', 'confusion', 'broken', 'bones', 'discolated','joints', 
-                                           'rash', 'stitches', 'lacerations', 'severe','bleeding'])
+
+    response('Please go to the nearest emergency room.', ['weakness', 'numbness', 'slurred', 'speech',
+    'fainting', 'burns',  'concussion', 'confusion', 'bones', 'discolated','joints', 'fever', ], single_response=True)
+    
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
-    response('Please contact 911. You need to go to emergency room safely as soon as possible.', ['severe', 'chest', 'pain', 'bleeding', 'faint', 'vision', 
-    'impaired', 'heart', 'attack', 'stroke'], 
-    required_words=['chest', 'pain', 'bleeding', 'faint', 'vision', 'impaired', 'heart', 'attack', 'stroke'])
+   
+    response('Please contact 911. You need to go to emergency room safely as soon as possible.', ['severe', 'chest', 
+    'pain', 'faint', 'vision', 'impaired', 'heart', 'attack', 'stroke'], single_response=True)
+
+    response('We always have the best therapist for you.', ["girlfriend", "broke"], required_words=['girlfriend'])
+
+    response('I am sorry you are going through this. I know this feels difficult. Would you like me to direct you to a therapist?', 
+    ['boyfriend','girlfriend','heartbreak', 'sad', 'lost'], single_response=True)
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
@@ -64,5 +67,6 @@ def get_response(user_input):
     return response
     
 #An infinite while true loop so chatbot can always get new responses
+print("Welcome to Internet Doctor for easy access to professional and reliable medical care!")
 while True:
     print('Bot: ' + get_response(input('You: ')))
